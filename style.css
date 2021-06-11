@@ -1,0 +1,80 @@
+:root {
+  --card-background: #1D7261;
+}
+
+body {
+  background: #1c0d26;
+  color: white;
+}
+body header .header {
+  background: url("./assets/img/carousel1.jpg") no-repeat;
+  background-size: 100%;
+}
+body header .card-footer p {
+  font-size: 1.2rem;
+  line-height: 0.7;
+  font-weight: 400;
+}
+body header .card-footer .cownt-down-watch {
+  display: inline-block;
+  background-color: #faebd733;
+  font-size: 2rem;
+  font-weight: 700;
+}
+body header .card-footer .header-delas {
+  font-size: 2.2rem;
+  line-height: 0.9;
+  font-weight: 500;
+}
+body section > div {
+  margin-bottom: 20px;
+}
+body .card {
+  background-color: var(--card-background);
+  border-radius: 0;
+}
+body .section_title {
+  display: flex;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #F4B13D;
+  margin: 1.6em 0;
+  gap: 5px;
+}
+body #gog-banner {
+  margin: 10px 0;
+  padding: 10px 8%;
+  border-top: 1px solid #F4B13D;
+  border-bottom: 1px solid #F4B13D;
+}
+body .gog-banner {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px 0;
+}
+body .gog-banner span.red {
+  color: #b3015a;
+}
+body .gog-banner .new-gog {
+  flex-shrink: 0;
+}
+body .gog-banner .new-gog img {
+  width: 28px;
+}
+
+h5 {
+  color: #b3015a;
+}
+h5 :first-child {
+  font-family: "Cursive Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+h5 :nth-child(2) {
+  text-transform: uppercase;
+  font-size: 7rem;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
