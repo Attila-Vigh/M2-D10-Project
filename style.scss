@@ -3,6 +3,21 @@
 }
 
 body {
+    
+    nav {
+        width: 100%;
+        background-color: #00000077;
+        position: fixed!important;
+        z-index: 999;
+        padding: 8%;
+        a {
+            
+            color: #fefefe!important;
+        }
+        .search {
+            display: none!important;
+        }
+    }
     header {
 
         .header {
@@ -85,8 +100,8 @@ h5 {
     :first-child {
         font-family: 'Cursive Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-transform:capitalize;
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 3rem;
+        font-weight: 900;
         font-style: italic;
     }
     :nth-child(2) {
